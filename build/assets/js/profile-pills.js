@@ -13,11 +13,6 @@ total.forEach(function (item, i) {
   tab.classList.add("shadow-soft-xxs");
   tab.style.animation = ".2s ease";
 
-  // .moving-tab : z-10
-  // .position-absolute: absolute
-  // .nav-link: "text-slate-700", "rounded-lg", "bg-inherit", "flex-auto", "text-center", "bg-none", "border-0", "block"
-  // .flex-column --> flex-col
-
   moving_div.classList.add("moving-tab", "z-10", "absolute", "nav-link", "text-slate-700", "rounded-lg", "bg-inherit", "flex-auto", "text-center", "bg-none", "border-0", "block");
   moving_div.appendChild(tab);
   item.appendChild(moving_div);
@@ -32,11 +27,9 @@ total.forEach(function (item, i) {
 
   item.onmouseover = function (event) {
     let target = getEventTarget(event);
-    // console.log(target);
-    let li = target.closest("li"); // get reference
+    let li = target.closest("li");
     if (li) {
-      let nodes = Array.from(li.closest("ul").children); // get array
-      // console.log(nodes);
+      let nodes = Array.from(li.closest("ul").children);
       let index = nodes.indexOf(li) + 1;
       item.querySelector("li:nth-child(" + index + ") .nav-link").onclick = function () {
         item.querySelectorAll("li").forEach(function (list_item) {
@@ -89,7 +82,7 @@ window.addEventListener("resize", function (event) {
     let li = item.querySelector(".nav-link.active").parentElement;
 
     if (li) {
-      let nodes = Array.from(li.closest("ul").children); // get array
+      let nodes = Array.from(li.closest("ul").children);
       let index = nodes.indexOf(li) + 1;
 
       let sum = 0;

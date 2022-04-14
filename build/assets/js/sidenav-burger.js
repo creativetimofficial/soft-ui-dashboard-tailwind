@@ -12,7 +12,6 @@ sidenav_trigger.addEventListener("click", function () {
     sidenav.classList.toggle("xl:left-[18%]");
   }
   sidenav_close_button.classList.toggle("hidden");
-  //   console.log("sidenav addEvent");
   sidenav.classList.toggle("translate-x-0");
   sidenav.classList.toggle("shadow-soft-xl");
   if (page == "rtl") {

@@ -5,7 +5,6 @@ var dropdown_menu = document.getElementById("dropdown-menu");
 var navbar = document.getElementById("navbarBlur");
 
 dropdown_trigger.addEventListener("click", function () {
-  // console.log("dropdown addEvent");
   dropdown_menu.classList.toggle("opacity-0");
   dropdown_menu.classList.toggle("pointer-events-none");
   dropdown_menu.classList.toggle("before:-top-5");

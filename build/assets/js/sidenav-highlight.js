@@ -16,7 +16,7 @@ function highlightPage(pageName) {
   target_a.classList.add("font-semibold");
   target_a.classList.add("text-slate-700");
   target_a.classList.add("shadow-soft-xl");
-  target_div.classList.add("bg-gradient-fuchsia-500");
+  target_div.classList.add("bg-gradient-fuchsia");
 
   target_paths.forEach((path) => {
     path.classList.remove("fill-slate-20");

@@ -19,7 +19,7 @@ var transparentBtn = document.getElementById("transparent-style-btn");
 var whiteBtn = document.getElementById("white-style-btn");
 
 var non_active_style = ["bg-none", "bg-transparent", "text-fuchsia-500", "border-fuchsia-500"];
-var active_style = ["bg-gradient-fuchsia-500", "bg-fuchsia-500", "text-white", "border-transparent"];
+var active_style = ["bg-gradient-fuchsia", "bg-fuchsia-500", "text-white", "border-transparent"];
 
 var transparent_sidenav_classes = ["xl:bg-transparent", "shadow-none"];
 var transparent_sidenav_highlighted = ["shadow-soft-xl"];
@@ -95,8 +95,8 @@ function sidebarColor(a) {
   var activeSidenavCardIconColorClass;
 
   var checkedSidenavIconColor = "bg-gradient-" + color;
-  var checkedSidenavCardColor = "after:bg-gradient-" + (color == "fuchsia-500" ? "slate-400" : color);
-  var checkedSidenavCardIconColorClass = "bg-gradient-" + (color == "fuchsia-500" ? "slate-400" : color);
+  var checkedSidenavCardColor = "after:bg-gradient-" + (color == "fuchsia" ? "slate" : color);
+  var checkedSidenavCardIconColorClass = "bg-gradient-" + (color == "fuchsia" ? "slate" : color);
 
   var sidenavCard = document.getElementById("sidenavCard");
   var sidenavCardIcon = document.getElementById("sidenavCardIcon");
@@ -110,8 +110,8 @@ function sidebarColor(a) {
       parent[i].classList.toggle("border-slate-700");
 
       activeSidenavIconColorClass = "bg-gradient-" + activeColor;
-      activeSidenavCardColorClass = "after:bg-gradient-" + (activeColor == "fuchsia-500" ? "slate-400" : activeColor);
-      activeSidenavCardIconColorClass = "bg-gradient-" + (activeColor == "fuchsia-500" ? "slate-400" : activeColor);
+      activeSidenavCardColorClass = "after:bg-gradient-" + (activeColor == "fuchsia" ? "slate" : activeColor);
+      activeSidenavCardIconColorClass = "bg-gradient-" + (activeColor == "fuchsia" ? "slate" : activeColor);
     }
     parent[i].removeAttribute("active-color");
   }

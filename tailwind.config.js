@@ -2,10 +2,7 @@ const plugin = require("tailwindcss/plugin");
 
 module.exports = {
   mode: "jit",
-  content: [
-    "./build/**/*.{html,js}",
-    // './assets/**/*.{css,js}'
-  ],
+  content: ["./build/**/*.{html,js}"],
   presets: [],
   darkMode: "class",
   theme: {
@@ -25,30 +22,6 @@ module.exports = {
       inherit: colors.inherit,
       current: colors.current,
       transparent: colors.transparent,
-
-      slate: colors.slate,
-      gray: colors.gray,
-      zinc: colors.zinc,
-      neutral: colors.neutral,
-      stone: colors.stone,
-      red: colors.red,
-      orange: colors.orange,
-      amber: colors.amber,
-      yellow: colors.yellow,
-      lime: colors.lime,
-      green: colors.green,
-      emerald: colors.emerald,
-      teal: colors.teal,
-      cyan: colors.cyan,
-      sky: colors.sky,
-      blue: colors.blue,
-      indigo: colors.indigo,
-      violet: colors.violet,
-      purple: colors.purple,
-      fuchsia: colors.fuchsia,
-      pink: colors.pink,
-      rose: colors.rose,
-
       black: colors.black,
       white: colors.white,
 
@@ -57,29 +30,29 @@ module.exports = {
         10: "#141727",
         20: "#3a416f",
         50: "#f8fafc",
-        100: "#dee2e6", //
-        200: "#cbd3da", //
-        300: "#a8b8d8", //
-        400: "#8392ab", //
-        500: "#67748e", //
-        600: "#627594", //
-        700: "#344767", //
-        800: "#3a416f", //
+        100: "#dee2e6",
+        200: "#cbd3da",
+        300: "#a8b8d8",
+        400: "#8392ab",
+        500: "#67748e",
+        600: "#627594",
+        700: "#344767",
+        800: "#3a416f",
         900: "#0f172a",
       },
 
       gray: {
         DEFAULT: colors.gray,
         50: "#f8f9fa",
-        100: "#ebeff4", //
-        200: "#e9ecef", //
-        300: "#d2d6da", //
-        400: "#ced4da", //
-        500: "#adb5bd", //
-        600: "#6c757d", //
-        700: "#495057", //
-        800: "#252f40", //
-        900: "#141727", //
+        100: "#ebeff4",
+        200: "#e9ecef",
+        300: "#d2d6da",
+        400: "#ced4da",
+        500: "#adb5bd",
+        600: "#6c757d",
+        700: "#495057",
+        800: "#252f40",
+        900: "#141727",
       },
 
       zinc: {
@@ -107,7 +80,7 @@ module.exports = {
         600: "#525252",
         700: "#404040",
         800: "#262626",
-        900: "#111111", //
+        900: "#111111",
       },
 
       stone: {
@@ -132,7 +105,7 @@ module.exports = {
         300: "#fca5a5",
         400: "#f87171",
         500: "#f53939",
-        600: "#ea0606", //
+        600: "#ea0606",
         700: "#b91c1c",
         800: "#991b1b",
         900: "#7f1d1d",
@@ -172,7 +145,7 @@ module.exports = {
         100: "#fef9c3",
         200: "#fef08a",
         300: "#fde047",
-        400: "#fbcf33", //
+        400: "#fbcf33",
         500: "#eab308",
         600: "#ca8a04",
         700: "#a16207",
@@ -186,8 +159,8 @@ module.exports = {
         100: "#ecfccb",
         200: "#d9f99d",
         300: "#bef264",
-        400: "#98ec2d", //
-        500: "#82d616", //
+        400: "#98ec2d",
+        500: "#82d616",
         600: "#65a30d",
         700: "#4d7c0f",
         800: "#3f6212",
@@ -202,7 +175,7 @@ module.exports = {
         300: "#86efac",
         400: "#4ade80",
         500: "#22c55e",
-        600: "#17ad37", //
+        600: "#17ad37",
         700: "#15803d",
         800: "#166534",
         900: "#14532d",
@@ -242,8 +215,8 @@ module.exports = {
         100: "#cffafe",
         200: "#a5f3fc",
         300: "#67e8f9",
-        400: "#21d4fd", //
-        500: "#17c1e8", //
+        400: "#21d4fd",
+        500: "#17c1e8",
         600: "#0891b2",
         700: "#0e7490",
         800: "#155e75",
@@ -258,10 +231,10 @@ module.exports = {
         300: "#7dd3fc",
         400: "#38bdf8",
         500: "#0ea5e9",
-        600: "#3ea1ec", //
+        600: "#3ea1ec",
         700: "#0369a1",
         800: "#075985",
-        900: "#0e456d", //
+        900: "#0e456d",
       },
 
       blue: {
@@ -272,10 +245,10 @@ module.exports = {
         300: "#93c5fd",
         400: "#60a5fa",
         500: "#3b82f6",
-        600: "#2152ff", //
+        600: "#2152ff",
         700: "#1d4ed8",
-        800: "#344e86", //
-        900: "#00007d", //
+        800: "#344e86",
+        900: "#00007d",
       },
 
       indigo: {
@@ -315,7 +288,7 @@ module.exports = {
         400: "#c084fc",
         500: "#a855f7",
         600: "#9333ea",
-        700: "#7928ca", //
+        700: "#7928ca",
         800: "#6b21a8",
         900: "#581c87",
       },
@@ -325,12 +298,12 @@ module.exports = {
         50: "#fdf4ff",
         100: "#fae8ff",
         200: "#f5d0fe",
-        300: "#e293d3", //
+        300: "#e293d3",
         400: "#e879f9",
-        500: "#cb0c9f", //
+        500: "#cb0c9f",
         600: "#c026d3",
         700: "#a21caf",
-        800: "#830866", //
+        800: "#830866",
         900: "#701a75",
       },
 
@@ -341,7 +314,7 @@ module.exports = {
         200: "#fbcfe8",
         300: "#f9a8d4",
         400: "#f472b6",
-        500: "#ff0080", //
+        500: "#ff0080",
         600: "#db2777",
         700: "#be185d",
         800: "#9d174d",
@@ -354,79 +327,13 @@ module.exports = {
         100: "#ffe4e6",
         200: "#fecdd3",
         300: "#fda4af",
-        400: "#ff667c", //
+        400: "#ff667c",
         500: "#f43f5e",
         600: "#e11d48",
         700: "#be123c",
         800: "#9f1239",
         900: "#881337",
       },
-
-      //  end Tailwind colors
-
-      // default: "#344767", //slate 700
-
-      // "american-blue": {
-      //   //slate 700
-      //   DEFAULT: "#3a416f",
-      //   100: "#3a416f1a",
-      //   950: "#3a416ff2",
-      // },
-
-      // "navy-blue": "#00007d", //blue 900
-
-      // orchid: "#e293d3", //fuchsia 300
-
-      // "light-gray": "#cbd3da", //slate 200
-
-      // "slate-gray": "#67748e", //slate 500
-
-      // "light-silver": "#d2d6da", //gray 300
-
-      // "yinmn-blue": "#344e86", // idk blue 60/70
-
-      // "picton-blue": "#3ea1ec", //sky 600 550
-
-      // "ateneo-blue": "#0e456d", // sky 900
-
-      // primary: "#cb0c9f", //500 ++ 400- 600   //fuchsia 500-600
-
-      // "dark-primary": "#830866", //pink 700     //fuchsia 800 :-?
-
-      // secondary: "#8392ab", //slate 400
-      // // #627594,#a8b8d8    //slate 600 // slate 300
-
-      // info: "#17c1e8", //cyan 500
-      // // #2152ff,#21d4fd    //blue 600  //cyan 400
-
-      // cyan: {
-      //   100: "#d1f3fa",
-      //   200: "#a2e6f6",
-      //   300: "#74daf1",
-      //   400: "#21d4fd",
-      //   500: "#17c1e8", //info
-      //   600: "#2152ff",
-      //   700: "#0e748b",
-      //   800: "#094d5d",
-      //   900: "#05272e",
-      // },
-
-      // success: "#82d616", //lime 500
-      // // #17ad37,#98ec2d  //green 600 //lime 400
-
-      // danger: "#ea0606", //red 600/550
-      // // #ea0606,#ff667c 500->400   //red600/550 //rose 400/450
-
-      // warning: "#f53939", //red 500
-      // // #f53939,#fbcf33    //red 500 // yellow 400/amber300
-
-      // light: "#e9ecef", //gray-200
-      // // #ced4da,#ebeff4
-
-      // dark: "#252f40",
-      // // #141727,#3a416f
-
-      // darker: "#111111",
     }),
     columns: {
       auto: "auto",
@@ -638,14 +545,14 @@ module.exports = {
       "gradient-to-l": "linear-gradient(to left, var(--tw-gradient-stops))",
       "gradient-to-tl": "linear-gradient(to top left, var(--tw-gradient-stops))",
 
-      "gradient-fuchsia-500": "linear-gradient(310deg," + theme("colors.purple.700") + "," + theme("colors.pink.500") + ")",
-      "gradient-cyan-500": "linear-gradient(310deg," + theme("colors.blue.600") + "," + theme("colors.cyan.400") + ")",
-      "gradient-red-500": "linear-gradient(310deg," + theme("colors.red.500") + "," + theme("colors.yellow.400") + ")",
-      "gradient-red-600": "linear-gradient(310deg," + theme("colors.red.600") + "," + theme("colors.rose.400") + ")",
-      "gradient-lime-500": "linear-gradient(310deg," + theme("colors.green.600") + "," + theme("colors.lime.400") + ")",
-      "gradient-slate-400": "linear-gradient(310deg," + theme("colors.slate.600") + "," + theme("colors.slate.300") + ")",
-      "gradient-gray-800": "linear-gradient(310deg," + theme("colors.gray.900") + "," + theme("colors.slate.800") + ")",
-      "gradient-gray-200": "linear-gradient(310deg," + theme("colors.gray.400") + "," + theme("colors.gray.100") + ")",
+      "gradient-fuchsia": "linear-gradient(310deg," + theme("colors.purple.700") + "," + theme("colors.pink.500") + ")",
+      "gradient-cyan": "linear-gradient(310deg," + theme("colors.blue.600") + "," + theme("colors.cyan.400") + ")",
+      "gradient-orange": "linear-gradient(310deg," + theme("colors.red.500") + "," + theme("colors.yellow.400") + ")",
+      "gradient-red": "linear-gradient(310deg," + theme("colors.red.600") + "," + theme("colors.rose.400") + ")",
+      "gradient-lime": "linear-gradient(310deg," + theme("colors.green.600") + "," + theme("colors.lime.400") + ")",
+      "gradient-slate": "linear-gradient(310deg," + theme("colors.slate.600") + "," + theme("colors.slate.300") + ")",
+      "gradient-dark-gray": "linear-gradient(310deg," + theme("colors.gray.900") + "," + theme("colors.slate.800") + ")",
+      "gradient-gray": "linear-gradient(310deg," + theme("colors.gray.400") + "," + theme("colors.gray.100") + ")",
 
       "gradient-horizontal-dark": "linear-gradient(90deg,transparent,rgba(0,0,0,.4),transparent)",
       "gradient-horizontal-light": "linear-gradient(90deg,transparent,rgba(0,0,0,.1),transparent)",
