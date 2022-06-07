@@ -2,7 +2,7 @@
 
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/soft-ui-dashboard-tailwind.svg)](https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/soft-ui-dashboard-tailwind.svg)](https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/issues?q=is%3Aissue+is%3Aclosed)
 
-![Image](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-dashboard-tailwind/soft-ui-dashboard-tailwind.jpg)
+![Image](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-dashboard/soft-ui-dashboard-tailwind.jpg)
 
 Most complex and innovative Dashboard Made by [Creative Tim](https://creative-tim.com/). Check our latest Free TailwindCSS Dashboard.
 
@@ -65,7 +65,7 @@ Let us know your thoughts below. And good luck with development!
 
 | HTML |
 | --- |
-| [![Soft UI Dashboard Tailwind HTML](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-dashboard-tailwind/soft-ui-dashboard-tailwind.jpg)](http://demos.creative-tim.com/soft-ui-dashboard-tailwind/pages/dashboard.html?ref=readme-sudt)
+| [![Soft UI Dashboard Tailwind HTML](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-dashboard/soft-ui-dashboard-tailwind.jpg)](http://demos.creative-tim.com/soft-ui-dashboard-tailwind/pages/dashboard.html?ref=readme-sudt)
 
 ## Demo
 
