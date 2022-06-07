@@ -65,7 +65,7 @@ Let us know your thoughts below. And good luck with development!
 
 | HTML |
 | --- |
-| [![Soft UI Dashboard Tailwind HTML]([https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-dashboard/soft-ui-dashboard-tailwind.jpg](https://s3.amazonaws.com/creativetim_bucket/products/642/original/soft-ui-dashboard-tailwind.jpg?1654522807))](http://demos.creative-tim.com/soft-ui-dashboard-tailwind/pages/dashboard.html?ref=readme-sudt)
+| [![Soft UI Dashboard Tailwind HTML](https://s3.amazonaws.com/creativetim_bucket/products/642/original/soft-ui-dashboard-tailwind.jpg?1654522807)](http://demos.creative-tim.com/soft-ui-dashboard-tailwind/pages/dashboard.html?ref=readme-sudt)
 
 ## Demo
 
