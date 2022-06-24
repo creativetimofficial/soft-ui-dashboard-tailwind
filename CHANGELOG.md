@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.3] 2022-06-24
+### Bug Fixing
+- update script imports
+
 ## [1.0.2] 2022-06-14
 ### Bug Fixing
 - fix documentation link
