@@ -1,10 +1,6 @@
-if(window.location.pathname.length > 1){
-  var pageName = window.location.pathname.split("/").pop().split(".")[0];
-  var sidenav_target = "../pages/" + pageName + ".html";
-} else {
-  var pageName = "dashboard";
-  var sidenav_target = "./pages/" + pageName + ".html";
-}
+var pageName = page;
+var sidenav_target = to_build + "pages/" + pageName + ".html";
+
 var fixedPlugin = document.querySelector("[fixed-plugin]");
 var fixedPluginButton = document.querySelector("[fixed-plugin-button]");
 var fixedPluginButtonNav = document.querySelector("[fixed-plugin-button-nav]");
@@ -17,6 +13,7 @@ var buttonNavbarFixed = document.querySelector("[navbarFixed]");
 
 var sidenav = document.querySelector("aside");
 var sidenav_icons = sidenav.querySelectorAll("li a div");
+
 
 var transparentBtn = document.querySelector("[transparent-style-btn]");
 var whiteBtn = document.querySelector("[white-style-btn]");
