@@ -1,9 +1,9 @@
 {
     "name": "soft-ui-dashboard-tailwind",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "",
     "scripts": {
-        "build": "tailwindcss build -i src/styles.css -o build/assets/css/styles.css"
+        "build": "tailwindcss build -i src/styles.css -o build/assets/css/soft-ui-dashboard-tailwind.css"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.2",

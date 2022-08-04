@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Soft UI Dashboard Tailwind - v1.0.3
+* Soft UI Dashboard Tailwind - v1.0.4
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-tailwind

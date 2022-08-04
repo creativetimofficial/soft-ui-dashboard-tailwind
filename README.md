@@ -1,6 +1,6 @@
 # [Soft UI Dashboard Tailwind](http://demos.creative-tim.com/soft-ui-dashboard-tailwind/pages/dashboard.html?ref=readme-sudt) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/soft-ui-dashboard-tailwind&text=Check%20Soft%20UI%20Dashboard%20Tailwind%20made%20by%20@CreativeTim%20#webdesign%20#dashboard%20#softdesign%20#html%20https://www.creative-tim.com/product/soft-ui-dashboard-tailwind) [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/FhCJCaHdQa)
 
-![version](https://img.shields.io/badge/version-1.0.3-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/soft-ui-dashboard-tailwind.svg)](https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/soft-ui-dashboard-tailwind.svg)](https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/issues?q=is%3Aissue+is%3Aclosed)
+![version](https://img.shields.io/badge/version-1.0.4-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/soft-ui-dashboard-tailwind.svg)](https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/soft-ui-dashboard-tailwind.svg)](https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/issues?q=is%3Aissue+is%3Aclosed)
 
 ![Image](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-dashboard/soft-ui-dashboard-tailwind.jpg)
 
@@ -18,12 +18,12 @@ You will save a lot of time going from prototyping to full-functional code, beca
 This Free TailwindCSS Dashboard is coming with prebuilt design blocks, so the development process is seamless,
 switching from our pages to the real website is very easy to be done.
 
-View [all components here](https://www.creative-tim.com/learning-lab/tailwind/alerts/soft-ui-dashboard?ref=readme-sudt).
+View [all components here](https://www.creative-tim.com/learning-lab/tailwind/html/alert/soft-ui-dashboard/?ref=readme-sudt).
 
 **Documentation built by Developers**
 
 Each element is well presented in a very complex documentation.
-You can read more about the <a href="https://www.creative-tim.com/learning-lab/tailwind/quick-start/soft-ui-dashboard" target="_blank">documentation here</a>.
+You can read more about the <a href="https://www.creative-tim.com/learning-lab/tailwind/html/quick-start/soft-ui-dashboard/?ref=readme-sudt" target="_blank">documentation here</a>.
 
 **Example Pages**
 
@@ -87,7 +87,7 @@ Quick start options:
 2. Navigate to the root / directory and run npm install to install our local dependencies.
 
 ## Documentation
-The documentation for the Soft UI Dashboard is hosted at our [website](https://www.creative-tim.com/learning-lab/tailwind/quick-start/soft-ui-dashboard-tailwind?ref=readme-sudt).
+The documentation for the Soft UI Dashboard is hosted at our [website](https://www.creative-tim.com/learning-lab/tailwind/html/quick-start/soft-ui-dashboard/?ref=readme-sudt).
 
 ### What's included
 
@@ -98,8 +98,8 @@ soft-ui-dashboard-tailwind
 ├── build
 │   ├── assets
 │   │   ├── css
-│   │   │   ├── styles.css
-│   │   │   ├── styles.min.css
+│   │   │   ├── soft-ui-dashboard-tailwind.css
+│   │   │   ├── soft-ui-dashboard-tailwind.min.css
 │   │   ├── fonts
 │   │   ├── img
 │   │   └── js
@@ -126,7 +126,7 @@ At present, we officially aim to support the last two versions of the following 
 ## Resources
 - [Live Preview](https://demos.creative-tim.com/soft-ui-dashboard-tailwind/pages/dashboard.html?ref=readme-sudt)
 - [Download Page](https://www.creative-tim.com/product/soft-ui-dashboard-tailwind?ref=readme-sudt)
-- Documentation is [here](https://www.creative-tim.com/learning-lab/tailwind/quick-start/soft-ui-dashboard?ref=readme-sudt)
+- Documentation is [here](https://www.creative-tim.com/learning-lab/tailwind/html/quick-start/soft-ui-dashboard/?ref=readme-sudt)
 - [License Agreement](https://www.creative-tim.com/license?ref=readme-sudt)
 - [Support](https://www.creative-tim.com/contact-us?ref=readme-sudt)
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/issues)
