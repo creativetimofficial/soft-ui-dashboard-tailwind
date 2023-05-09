@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Soft UI Dashboard Tailwind - v1.0.4
+* Soft UI Dashboard Tailwind - v1.0.5
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-tailwind
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Copyright 2023 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (site.license)
 
 * Coded by www.creative-tim.com
@@ -2257,6 +2257,16 @@ h6 {
   padding-right: 0.75rem;
 }
 
+.py-2\.2 {
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+}
+
+.px-3\.6 {
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+}
+
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
@@ -2285,6 +2295,11 @@ h6 {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.py-1\.4 {
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
 }
 
 .pl-0 {
@@ -2518,6 +2533,10 @@ h6 {
   line-height: 1.25;
 }
 
+.leading-none {
+  line-height: 1;
+}
+
 .leading-pro {
   line-height: 1.4;
 }
@@ -2532,10 +2551,6 @@ h6 {
 
 .leading-5 {
   line-height: 1.25rem;
-}
-
-.leading-none {
-  line-height: 1;
 }
 
 .leading-tighter {
