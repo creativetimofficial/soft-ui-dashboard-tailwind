@@ -1,6 +1,6 @@
 # [Soft UI Dashboard Tailwind](http://demos.creative-tim.com/soft-ui-dashboard-tailwind/pages/dashboard.html?ref=readme-sudt) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/soft-ui-dashboard-tailwind&text=Check%20Soft%20UI%20Dashboard%20Tailwind%20made%20by%20@CreativeTim%20#webdesign%20#dashboard%20#softdesign%20#html%20https://www.creative-tim.com/product/soft-ui-dashboard-tailwind) [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/FhCJCaHdQa)
 
-![version](https://img.shields.io/badge/version-1.0.4-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/soft-ui-dashboard-tailwind.svg)](https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/soft-ui-dashboard-tailwind.svg)](https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/issues?q=is%3Aissue+is%3Aclosed)
+![version](https://img.shields.io/badge/version-1.0.5-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/soft-ui-dashboard-tailwind.svg)](https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/soft-ui-dashboard-tailwind.svg)](https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/issues?q=is%3Aissue+is%3Aclosed)
 
 ![Image](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-dashboard/soft-ui-dashboard-tailwind.jpg)
 
@@ -42,6 +42,7 @@ View <a href="https://demos.creative-tim.com/soft-ui-dashboard-tailwind/pages/da
 During the development of this dashboard, we have used many existing resources from awesome developers. We want to thank them for providing their tools open source:
 - [TailwindCSS](https://tailwindcss.com/)- Open source front end framework
 - [Popper.js](https://popper.js.org/) - Kickass library used to manage poppers
+- [Nepcha Analytics](https://nepcha.com/?ref=readme) for the analytics tool. Nepcha is already integrated with Soft UI Dashboard Tailwind. You can use it to gain insights into your sources of traffic.
 
 Let us know your thoughts below. And good luck with development!
 
@@ -130,6 +131,7 @@ At present, we officially aim to support the last two versions of the following 
 - [License Agreement](https://www.creative-tim.com/license?ref=readme-sudt)
 - [Support](https://www.creative-tim.com/contact-us?ref=readme-sudt)
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/soft-ui-dashboard-tailwind/issues)
+- [Nepcha Analytics](https://nepcha.com/?ref=readme) - Analytics tool for your website
 
 ## Reporting Issues
 We use GitHub Issues as the official bug tracker for the Soft UI Dashboard Tailwind. Here are some advices for our users that want to report an issue:
@@ -144,7 +146,7 @@ If you have questions or need help integrating the product please [contact us](h
 
 ## Licensing
 
-- Copyright 2022 [Creative Tim](https://www.creative-tim.com?ref=readme-sudt)
+- Copyright 2023 [Creative Tim](https://www.creative-tim.com?ref=readme-sudt)
 - Creative Tim [license](https://www.creative-tim.com/license?ref=readme-sudt)
 
 ## Useful Links

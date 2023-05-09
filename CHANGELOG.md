@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.5] 2022-08-05
+### Bug Fixing
+- fix sidenav color plugin
+- fix chips' padding
+
 ## [1.0.4] 2022-08-04
 ### Bug Fixing
 - refactor custom classes
