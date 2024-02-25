@@ -8,7 +8,7 @@ new Chart(ctx, {
     labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
     datasets: [
       {
-        label: "Sales",
+        label: "Price chart",
         tension: 0.4,
         borderWidth: 0,
         borderRadius: 4,

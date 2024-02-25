@@ -1,11 +1,11 @@
 /*!
 
 =========================================================
-* Soft UI Dashboard Tailwind - v1.0.5
+* Goo Lagoon - v1.0.5
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-tailwind
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+* Product Page: https://www.bbwhale.meme/product/soft-ui-dashboard-tailwind
+* Copyright 2023 Creative Tim (https://www.bbwhale.meme)
 * Licensed under MIT (site.license)
 
 * Coded by www.creative-tim.com
