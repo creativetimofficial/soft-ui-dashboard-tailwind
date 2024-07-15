@@ -12,5 +12,4 @@ frontend:
     # It must to populate the specified `publish` folder with a `index.html` file.
     deploy:
       - npm install --legacy-peer-deps
-  subdomain: silver-eventual-puffin
 yamlVersion: 2
